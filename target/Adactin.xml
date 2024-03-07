@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="108.371357">
+<testcase classname="Hotel Booking" name="TC01_Booking with valid credentials" time="40.470679">
+<system-out><![CDATA[Given user is on Adactin login application..................................passed
+When user enters valid username.............................................passed
+And user enters valid password..............................................passed
+And user clicks login button................................................passed
+Then user verifies the search hotel page by header validation...............passed
+When user prints all the select hotel dropdown details in the console.......passed
+And user selects location, Hotel, RoomType and Number of Rooms from dropdown list.passed
+And user enters Check In Date and Check out Date............................passed
+And user enters Adults per Room and Children per Room.......................passed
+And user clickes search button..............................................passed
+Then user verifies the select hotel by header validation....................passed
+When user selctes the hotel.................................................passed
+And user clicks the continue button.........................................passed
+Then user verifies the Book A Hotel page by header validation...............passed
+When user prints all the Book A Hotel page details in the console...........passed
+And user enters First Name, Last Name, Billing Address and Credit Card Number.passed
+And user Selects Credit Card Type, Expiry Month and Expiry Year.............passed
+And user enters cvv Number..................................................passed
+And user clicks Book Now button.............................................passed
+And user tskes screen shot of the confirmed ticket..........................passed
+Then user verifies Booking confirmation page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hotel Booking" name="TC02_Booking and Cancel Hotel Booking with valid credentials" time="67.900678">
+<system-out><![CDATA[Given user is on Adactin login application..................................passed
+When user enters valid username.............................................passed
+And user enters valid password..............................................passed
+And user clicks login button................................................passed
+Then user verifies the search hotel page by header validation...............passed
+When user prints all the select hotel dropdown details in the console.......passed
+And user selects location, Hotel, RoomType and Number of Rooms from dropdown list.passed
+And user enters Check In Date and Check out Date............................passed
+And user enters Adults per Room and Children per Room.......................passed
+And user clickes search button..............................................passed
+Then user verifies the select hotel by header validation....................passed
+When user selctes the hotel.................................................passed
+And user clicks the continue button.........................................passed
+Then user verifies the Book A Hotel page by header validation...............passed
+When user prints all the Book A Hotel page details in the console...........passed
+And user enters First Name, Last Name, Billing Address and Credit Card Number.passed
+And user Selects Credit Card Type, Expiry Month and Expiry Year.............passed
+And user enters cvv Number..................................................passed
+And user clicks Book Now button.............................................passed
+And user tskes screen shot of the confirmed ticket..........................passed
+Then user verifies Booking confirmation page................................passed
+When user prints the Order No in the console................................passed
+And user clicks My Itineary button..........................................passed
+Then user verifies Booked Itinerary page....................................passed
+When user enters search order Id in the search box..........................passed
+And user clickes on the go button...........................................passed
+And user clicks order Id check box of the booked Hotel......................passed
+And user clickes cancel button..............................................passed
+And user handles the popup Alert............................................passed
+And user prints the webtable of the booked ticked...........................passed
+And user clickes the LogOut button and logging out of the Application.......passed
+Then user verifies the application is logged out sucessfully................passed
+]]></system-out>
+</testcase>
+</testsuite>
