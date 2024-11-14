@@ -221,7 +221,15 @@ public class BaseClass {
 	public void webdriverwaitByBase(int sec, By locator) {
 		WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(sec));
 		WebElement ordreId = wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+		
+		
+	
 
+	}
+
+	public void verifyenable() {
+		
+		
 	}
 
 
