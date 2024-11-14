@@ -49,7 +49,7 @@ public class StepDefinitionClass extends BaseClass{
 	public void user_enters_valid_password() {
 		
 		lp=new LoginPage(); 
-		sendKeysByBase(lp.getTxtPass(), "4N6ZQR");
+		sendKeysByBase(lp.getTxtPass(), "PF2M65");
 	    
 	}
 

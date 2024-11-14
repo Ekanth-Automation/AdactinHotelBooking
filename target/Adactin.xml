@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="108.371357">
-<testcase classname="Hotel Booking" name="TC01_Booking with valid credentials" time="40.470679">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="77.442697">
+<testcase classname="Hotel Booking" name="TC01_Booking with valid credentials" time="34.715553">
 <system-out><![CDATA[Given user is on Adactin login application..................................passed
 When user enters valid username.............................................passed
 And user enters valid password..............................................passed
@@ -24,7 +24,7 @@ And user tskes screen shot of the confirmed ticket..........................pass
 Then user verifies Booking confirmation page................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Hotel Booking" name="TC02_Booking and Cancel Hotel Booking with valid credentials" time="67.900678">
+<testcase classname="Hotel Booking" name="TC02_Booking and Cancel Hotel Booking with valid credentials" time="42.727144">
 <system-out><![CDATA[Given user is on Adactin login application..................................passed
 When user enters valid username.............................................passed
 And user enters valid password..............................................passed
